@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Business Agency</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="logo">
+            <span class="logo-child">L</span>
+            <span class="logo-child">O</span>
+            <span class="logo-child">G</span>
+            <span class="logo-child">O</span>
+        </div>
+        <div class="toggle-icon">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+        <div class="nav-list">
+            <a href="#section-1" class="nav-link">Home</a>
+            <a href="#section-2" class="nav-link">About</a>
+            <a href="#section-3" class="nav-link">Pricing</a>
+            <a href="#section-4" class="nav-link">Contact</a>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- start ==> first section -->
+    <section class="section-1" id="section-1">
+        <div class="banner-heading">
+            <h1 class="banner">Consulting</h1>
+            <h1 class="banner">Digital Marketing</h1>
+            <h1 class="banner">Strategy</h1>
+            <h1 class="banner">Business Ideas</h1>
+            <h1 class="banner">Creativity</h1>
+        </div>
+        <div class="banner-paragraph">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>   
+        </div>
+        <div class="banner-btn">
+            <button type="button">Discover Now</button>
+        </div>
+    </section>
+    <!-- end ==> first section -->
+
+    <!-- section-2 ==> about us -->
+    <section class="section-2" id="section-2">
+        <h1 class="section-heading">About Us</h1>
+        <div class="video-wrapper">
+            <video src="./images/about-us.mp4" poster="images/about.jpg"></video>
+            <div class="video-controls">
+                <!-- top side -->
+                <div class="progress-video">
+                    <input type="range" min="0" max="100" 
+                    class="input-progress-video" title="progress">
+                    <div class="time-hover">
+                        <span>00:01</span>
+                    </div>
+                </div>
+                <!-- bottom side -->
+                <div class="btn-player">
+                    <div class="play-pause">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="volume-voice">
+                        <div class="volume-icon" data-mute="false">
+                            <i class="fa-solid fa-volume-low"></i>
+                        </div>
+                        <input type="range" min="0" max="1" step="0.01"
+                        class="volume-progress" title="volume-progress">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="parag-wrapper">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+               Tempora totam nam quasi officia, voluptatum deleniti provident
+               natus temporibus molestiae quae ratione fugit placeat voluptatibus, 
+               deserunt repellat dicta, optio quo quisquam libero tempore veritatis? 
+               Veritatis nam magnam omnis nobis iusto recusandae minus odit eligendi 
+               maxime dolorem, eos id! Fugiat, adipisci perspiciatis!</p>
+            <i class="fa-solid fa-quote-right"></i>
+            
+        </div>
+    </section>
+    <!-- end of section-2 -->
+
+    <!-- section 3 ==> Pricing -->
+    <section class="section-3" id="section-3">
+        <h1 class="section-heading">Pricing</h1>
+        <div class="pricing-cards-wrapper swiper">
+            <div class="swiper-wrapper">
+                <div class="pricing-card swiper-slide">
+                    <div class="pricing-card-front">
+                        <h2 class="pricing-card-heading heading-free">Free</h2>
+                        <h3 class="pricing-card-price">$0</h3>
+                        <ul class="pricing-card-list free-list">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li> 
+                        </ul>
+                        <div class="pricing-card-btn btn-free">
+                            <button type="button">
+                                CHOOSE PLAN
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="pricing-card swiper-slide">
+                    <div class="pricing-card-front">
+                        <h2 class="pricing-card-heading heading-basic">Basic</h2>
+                        <h3 class="pricing-card-price">$299</h3>
+                        <ul class="pricing-card-list basic-list">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li> 
+                        </ul>
+                        <div class="pricing-card-btn btn-basic">
+                            <button type="button">
+                                CHOOSE PLAN
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card swiper-slide">
+                    <div class="pricing-card-front">
+                        <h2 class="pricing-card-heading heading-standard">Standard</h2>
+                        <h3 class="pricing-card-price">$699</h3>
+                        <ul class="pricing-card-list standard-list">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-xmark"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li> 
+                        </ul>
+                        <div class="pricing-card-btn btn-standard">
+                            <button type="button">
+                                CHOOSE PLAN
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-card swiper-slide">
+                    <div class="pricing-card-front">
+                        <h2 class="pricing-card-heading heading-premium">Premium</h2>
+                        <h3 class="pricing-card-price">$999</h3>
+                        <ul class="pricing-card-list premium-list">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>    
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Lorem ipsum dolor</span>
+                            </li>      
+                        </ul>
+                        <div class="pricing-card-btn btn-premium">
+                            <button type="button">
+                                CHOOSE PLAN
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of section 3 -->
+
+    <!-- section 4 => section contact -->
+    <section class="section-4" id="section-4">
+        <h1 class="section-heading">
+            Contact
+        </h1>
+        <div class="contact-wrapper">
+            <div class="contact-phone">
+                <i class="fas fa-mobile-alt"></i>
+                <h4>Phone</h4>
+                <p class="parag">+21622000111<br>+21699000111</p>
+            </div>
+            <div class="contact-address">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>Address</h4>
+                <p class="parag">Main street #123<br>Wall street #123</p>
+            </div>
+            <div class="contact-mail">
+                <i class="far fa-envelope"></i>
+                <h4>Email</h4>
+                <p class="parag">support@gmail.com<br>support@outlook.com</p>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h3>GET IN TOUCH</h3>
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Your Message">
+                <input type="submit" value="send message">
+            </form>
+        </div>
+    </section>
+    <!-- end of section 4 -->
+
+    <!-- footer -->
+    <footer>
+        <div class="links">
+            <a href="#section-1">Home</a>
+            <a href="#section-2">About</a>
+            <a href="#section-3">Pricing</a>
+            <a href="#section-4">Contact</a>
+        </div>
+        <div class="addresses">
+            <i class="fas fa-mobile-alt footer-icon"></i>
+            <i class="fas fa-map-marker-alt footer-icon"></i>
+            <i class="far fa-envelope footer-icon"></i>
+        </div>
+        <div class="copyright">
+            <h5>SaadaouiForkan © All rights reserved</h5>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
